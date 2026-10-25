@@ -1,0 +1,17 @@
+{
+  "client_id": "https://mali0513001-svg.github.io/oauth/oauth-client.json",
+  "client_name": "Hermes Agent on NAS",
+  "client_uri": "https://mali0513001-svg.github.io/oauth/",
+  "redirect_uris": [
+    "http://localhost:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp"
+}
